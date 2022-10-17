@@ -21,6 +21,40 @@ div.separatore{
     background-color: white;
 }
 
+/* -----------BUTTON----------- */
+button.btn-default{
+    font-size: .8rem;
+    padding: .6rem .6rem;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.btn-bw{
+    background-color: white;
+    color: black;
+}.btn-bw:hover{
+    color: white;
+    background-color: #23272a;
+}
+
+
+.btn-bw-reverse{
+    background-color: #23272a;
+    color: white;
+}.btn-bw-reverse:hover{
+    color: #23272a;
+    background-color: white;
+}
+
+.btn-blue{
+    background-color: #8ea1e1;
+    color: white;
+}.btn-blue:hover{
+    background-color: #6977a3;
+}
 
 /* -----------HEADER----------- */
 header{
@@ -90,26 +124,6 @@ div.main-btn{
     align-items: center; 
 }
 
-button.bnt-default{
-    font-size: .8rem;
-    padding: .6rem .6rem;
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    border-radius: 50px;
-    border: none;
-}
-button.bnt-default:hover{
-    background-color: #23272a;
-    color: white;
-}
-
-.arrow-white:hover{
-    background-color: #23272a;
-    color: white;
-}
-
-
 /* ---Main-Header--- */
 
 section.main-header{
@@ -139,29 +153,10 @@ section.main-header p{
 div.btns-launch{
     margin-top: 1rem;
 }
+
 span.arrow{
     font-size: 1rem;
-    color: black;
 }
-
-.btn-dark{
-    font-size: .8rem;
-    padding: .6rem .6rem;
-    background-color: #23272a;
-    color: white;
-    font-weight: bolder;
-    border-radius: 50px;
-    border: none;
-
-    margin-left: 2rem;
-}
-
-.btn-dark:hover{
-    background-color: white;
-    color: #23272a;
-}
-
-
 
 /* -----------MAIN----------- */
 
@@ -265,22 +260,13 @@ div.start-adventure{
     background-repeat: no-repeat;
 }
 
-button.btn-blue{
-    font-size: 1.2rem;
-    padding: .4rem .6rem;
-    background-color: #8ea1e1;
-    color: white;
-    font-weight: bolder;
-    border-radius: 50px;
-    border: none;
-
+.fix-btn{
+    font-size: 4rem;
     margin: 1rem 0 6rem 0;
-}button.btn-blue:hover{
-    background-color: #6b7ebd;
 }
-.arrow-blue{
-    vertical-align: text-bottom;
-    color: white;
+
+span.txt-button-size{
+    font-size: 1.5rem;
 }
 /* -----------FOOTER----------- */
 footer{
@@ -326,8 +312,4 @@ section.end-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.fix-bnt-margin{
-    margin: 0;
 }
