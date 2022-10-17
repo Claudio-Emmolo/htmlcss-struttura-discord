@@ -225,12 +225,15 @@ section.footer-box-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 div.footer-box-ext{
     width: 70%;
     height: auto;
-    background-color: green;
+    
+    padding-top: 3rem;
 
     display: flex;
     justify-content: center;
@@ -240,9 +243,40 @@ div.footer-box-ext{
 
 div.footer-box-ext p{
     text-align: center;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 2rem 2rem;
 }
 
+div.footer-box-ext img{
+    width: 100%;
+}
+
+div.start-adventure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+
+button.btn-blue{
+    font-size: 1.2rem;
+    padding: .4rem .6rem;
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+
+    margin: 1rem 0 6rem 0;
+}button.btn-blue:hover{
+    background-color: #6b7ebd;
+}
+.arrow-blue{
+    vertical-align: text-bottom;
+    color: white;
+}
 /* -----------FOOTER----------- */
 footer{
     display: flex;
