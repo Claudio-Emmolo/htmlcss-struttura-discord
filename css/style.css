@@ -11,6 +11,13 @@
     background-color: grey;
 }
 
+div.separatore{
+    width: 70%;
+    height: 1px;
+    background-color: white;
+}
+
+
 /* -----------HEADER----------- */
 header{
     display: flex;
@@ -19,9 +26,7 @@ header{
     align-items: center;
 
     height: 26rem;
-}
 
-header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +34,7 @@ header{
 
 /* NAV */
 nav.main-nav{
-    width: 75%;
+    width: 70%;
     height: 3rem;
     background-color: orange;
 
@@ -103,4 +108,50 @@ div.footer-box-ext{
     background-color: green;
 
     display: flex;
+}
+
+/* -----------FOOTER----------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(37, 37, 37);
+}
+
+/* Main-footer */
+section.main-footer{
+    width: 70%;
+    height: 25rem;
+
+    display: flex;
+
+    margin: 2rem 0;
+}
+
+div.big-link{
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+}
+
+div.little-link{
+    width: calc(70% / 3);
+    height: 100%;
+    background-color: rgb(0, 89, 253);
+    border: 1px solid black;
+}
+
+/* End-footer */
+
+section.end-footer{
+    width: 70%;
+    height: 2.5rem;
+    background-color: yellow;
+
+    margin: 1rem 0 3rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
