@@ -56,6 +56,10 @@ button.btn-default{
     background-color: #6977a3;
 }
 
+.btn-margin-header{
+    margin-right: 1rem;
+}
+
 /* -----------HEADER----------- */
 header{
     display: flex;
