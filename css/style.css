@@ -1,0 +1,52 @@
+/* -----------RESET----------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -----------GENERAL----------- */
+
+
+/* -----------HEADER----------- */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 26rem;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* NAV */
+nav.main-nav{
+    width: 70%;
+    height: 3rem;
+    background-color: orange;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: .5rem 0 3rem 0;
+}
+
+nav.main-nav ul li{
+    display: inline;
+}
+
+/* Main-Header */
+
+section.main-header{
+    width: 50%;
+    height: 20rem;
+    background-color: rgb(255, 0, 170);
+
+    margin-bottom: 2rem;
+}
