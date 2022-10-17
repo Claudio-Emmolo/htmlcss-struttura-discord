@@ -7,6 +7,9 @@
 
 /* -----------GENERAL----------- */
 
+.bg-color-grey{
+    background-color: grey;
+}
 
 /* -----------HEADER----------- */
 header{
@@ -26,7 +29,7 @@ header{
 
 /* NAV */
 nav.main-nav{
-    width: 70%;
+    width: 75%;
     height: 3rem;
     background-color: orange;
 
@@ -49,4 +52,35 @@ section.main-header{
     background-color: rgb(255, 0, 170);
 
     margin-bottom: 2rem;
+}
+
+/* -----------MAIN----------- */
+
+section.box-section{
+    width: 100%;
+    height: 30rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box-ext{
+    width: 70%;
+    height: 25rem;
+    border: 1px solid red;
+
+    display: flex;
+}
+
+div.box-img{
+    width: 65%;
+    height: 100%;
+    background-color: chartreuse;
+}
+
+div.box-txt{
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
 }
