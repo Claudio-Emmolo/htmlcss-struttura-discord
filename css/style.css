@@ -56,6 +56,7 @@ section.main-header{
 
 /* -----------MAIN----------- */
 
+/* Main Box */
 section.box-section{
     width: 100%;
     height: 30rem;
@@ -83,4 +84,23 @@ div.box-txt{
     width: 35%;
     height: 100%;
     background-color: aqua;
+}
+
+/* Footer Box */
+
+section.footer-box-section{
+    width: 100%;
+    height: 35rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.footer-box-ext{
+    width: 70%;
+    height: 30rem;
+    background-color: green;
+
+    display: flex;
 }
