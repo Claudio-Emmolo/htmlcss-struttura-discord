@@ -38,18 +38,15 @@ header{
 
 /* NAV */
 section.main-nav{
-    width: 70%;
+    width: 75%;
     height: 3rem;
-    background-color: orange;
 
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
 
     margin: .5rem 0 3rem 0;
 }
 
-section.main-nav>h1{
+section.main-nav>div.logo-conteiner{
     width: 20%;
     height: 100%;
 
@@ -58,17 +55,16 @@ section.main-nav>h1{
     align-items: center;
 }
 
-div.main-btn{
-    width: 20%;
-    height: 100%;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; 
-}
-
+/* nav */
 nav ul li{
     display: inline;
+
+    color: white;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}nav ul li:hover{
+    border-bottom: 1px solid white;
 }
 
 nav{
@@ -80,9 +76,35 @@ nav{
     align-items: center;
 }
 
+/* button */
 nav.main-nav button{
     width: 120px;
 }
+
+div.main-btn{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+div.main-btn button{
+    font-size: .8rem;
+    padding: .4rem .6rem;
+    background-color: white;
+    colore: black;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+}
+
+div.main-btn button:hover{
+    background-color: black;
+    color: white;
+}
+
 
 /* Main-Header */
 
